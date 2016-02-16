@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 function OpenConn()
 {
-	$conn = new mysqli("localhost", "root", "", "todo") or die($conn->connect_error);
+    $conn = new mysqli("localhost", "root", "", "todo") or die($conn->connect_error);
 
-        return $conn;
+    return $conn;
 }
